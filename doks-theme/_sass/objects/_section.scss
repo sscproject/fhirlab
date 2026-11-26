@@ -19,3 +19,12 @@
 .section--grey {
 	background-color: $color-section-grey;
 }
+
+/* Pages without a hero: leave room for the absolutely positioned site header */
+.section--no-hero {
+	padding-top: 5.625rem + 2.5rem;
+
+	@media (min-width: $screen-sm-min) {
+		padding-top: 5.625rem + 3.75rem;
+	}
+}

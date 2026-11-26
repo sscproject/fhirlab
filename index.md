@@ -5,9 +5,10 @@ keywords:
 
 # Hero section
 title: FHIR® Lab
-description: "<mark>Digital Health Interoperability Sandbox for learning and capacity development.</mark><br><br>
-FHIR® Lab is an interoperability sandbox, with a collection of tools designed for low-resource settings as a safe, and practical environment where users can develop skills, test big ideas in digital health, and accelerate the adoption of standards such as, HL7® FHIR®, SNOMED CT, ICD, LOINC etc. Whether you're a policymaker, implementer, developer, student or trainer, FHIR Lab can support advocacy, hands-on learning, and real-world testing before any major investments and scaling national systems. You can call it a playpen or a launchpad for digital health transformations, suited for local needs, and aligned with global best practices.<br><br>
-The FHIR® Lab sandbox is part of The Strengthening Standards Capability Project (SSCP), co-funded by CSIRO Australia and Australian Government, Department of Foreign Affairs and Trade <br><br>
+description: "<span class=\"hero-subheader__tagline\">Try it here before you build it there.</span>
+FHIR® Lab is a free sandbox for low-resource settings. Try out HL7® FHIR®, SNOMED CT, ICD, LOINC and other standards, and see what works before you invest in national systems.<br><br>
+It's open to policymakers, implementers, developers, students and trainers. Use it to learn, test ideas and make the case for standards in your country.<br><br>
+FHIR® Lab sandbox is developed under The Strengthening Standards Capability Project (SSCP), co-funded by CSIRO Australia and Australian Government, Department of Foreign Affairs and Trade.<br><br>
 HL7® and FHIR® are registered trademarks of Health Level Seven International.<br><br>
 Please find below a complete list of tools available in FHIRLab to support learning, testing, and advocacy efforts."
 
@@ -26,54 +27,71 @@ buttons:
 #      url: '#'
 #      external_url: false
 
-# Author box
-author:
- title: Partner with us.
- title_url: '#'
- external_url: true
- description: We’re always looking for great technology partners to power-up our sandbox. If you have a platform that supports standards-based health information exchange, is based on open-standards, support learning and capacity development, then let’s talk!  
-        
-
 # Grid navigation
 grid_navigation:
-    - title: HAPI FHIR Server
-      excerpt: Fully functional FHIR server to help you try out all things FHIR. 
+    - title: DPI-H Lab
+      excerpt: Learn and build your country's connected health future together.
       cta: 
-      url: 'https://cdr.fhirlab.net/fhir/swagger-ui/'
+      url: 'https://dpih.fhirlab.net/'
       external_url: true
     - title: Ontoserver
       excerpt: Learn FHIR terminology, create ValueSets and expand in Point of Service Systems
       cta: 
       url: 'https://tx.fhirlab.net/'
       external_url: true
+    - title: IPS Connectathon Toolkit
+      excerpt: Get your country team ready for the IPS connectathon. Learn, build and test together.
+      cta: 
+      url: 'ips-connectathon'
+    - title: Generic FHIR Server
+      excerpt: Fully functional FHIR server to test all things FHIR.
+      cta: 
+      url: 'https://cdr.fhirlab.net/'
+      external_url: true
+    - title: PH Core FHIR Server
+      excerpt: Fully functional FHIR server for the PH Core FHIR IG.
+      cta: 
+      url: 'https://cdr.phcore.fhirlab.net/'
+      external_url: true
+    - title: PH eReferral FHIR Server
+      excerpt: Fully functional FHIR server for the PH eReferral FHIR IG.
+      cta: 
+      url: 'https://cdr.pheref.fhirlab.net/'
+      external_url: true
     - title: Learning Activities
       excerpt: Try these little excercises to learn and demonstrate standards in action
       cta: 
       url: 'learning'
-    - title: FHIR Flare
-      excerpt: FHIR IG Toolkit
-      cta: 
-      url: 'https://flare.fhirlab.net/'
-      external_url: true
-    - title: Smart Forms
-      excerpt: Smart on FHIR tools - Learn and try Smart On FHIR workflows in a simulated environment
-      cta: 
-      url: 'https://formlab.fhirlab.net/'
-      external_url: true
-    - title: OpenMRS
-      excerpt: Simulated EMR - Explore how an EMR and Terminology Service support standards-based clinical documentation
-      cta: 
-      url: 'https://bahmni.dev.fhirlab.net/'
-      external_url: true
-    - title: AidBox
-      excerpt: FHIR Platform / SDC - Explore AI form generation, structure data capture and EMR integrations
-      cta: 
-      url: 'https://aidbox.fhirlab.net/'
-      external_url: true
-    - title: Beda EMR
-      excerpt: Try out a FHIR native EMR in action (Hint! create forms in Aidbox, and use in Beda EMR)
-      cta: 
-      url: 'https://beda.fhirlab.net/'
-      external_url: true
+# Temporarily hidden while these services are down - uncomment to restore.
+#    - title: HAPI FHIR Server
+#      excerpt: Fully functional FHIR server to help you try out all things FHIR. 
+#      cta: 
+#      url: 'https://cdr.fhirlab.net/fhir/swagger-ui/'
+#      external_url: true
+#    - title: FHIR Flare
+#      excerpt: FHIR IG Toolkit
+#      cta: 
+#      url: 'https://flare.fhirlab.net/'
+#      external_url: true
+#    - title: Smart Forms
+#      excerpt: Smart on FHIR tools - Learn and try Smart On FHIR workflows in a simulated environment
+#      cta: 
+#      url: 'https://formlab.fhirlab.net/'
+#      external_url: true
+#    - title: OpenMRS
+#      excerpt: Simulated EMR - Explore how an EMR and Terminology Service support standards-based clinical documentation
+#      cta: 
+#      url: 'https://bahmni.dev.fhirlab.net/'
+#      external_url: true
+#    - title: AidBox
+#      excerpt: FHIR Platform / SDC - Explore AI form generation, structure data capture and EMR integrations
+#      cta: 
+#      url: 'https://aidbox.fhirlab.net/'
+#      external_url: true
+#    - title: Beda EMR
+#      excerpt: Try out a FHIR native EMR in action (Hint! create forms in Aidbox, and use in Beda EMR)
+#      cta: 
+#      url: 'https://beda.fhirlab.net/'
+#      external_url: true
 
 ---

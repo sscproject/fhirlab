@@ -21,7 +21,12 @@ doks:
             logo:
                 text: FHIRLab
                 image:
-            copyright: Copyright &copy; 2025<br>All rights reserved.
+            copyright: Copyright &copy; 2025. All rights reserved.
+        partner:
+            title: Partner with us.
+            description: We’re always looking for great technology partners to power-up our sandbox. If you have a platform that supports standards-based health information exchange, is based on open-standards, support learning and capacity development, then let’s talk!
+            cta: Join us!
+            url: 'https://chat.whatsapp.com/D7V2j7qLi31EuPmFCoyRC1'
         social_list:
             - network_name: CSIRO SSCP
               profile_url: 'https://sscp.health/'

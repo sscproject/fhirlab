@@ -1,8 +1,21 @@
 {% if site.doks.footer.content.logo.image or site.doks.footer.content.logo.text or site.doks.footer.content.copyright or site.doks.footer.social_list %}
 	<footer class="site-footer">
 		<div class="container">
+			{% if site.doks.footer.partner.title %}
+				<div class="row">
+					<div class="col-md-12">
+						<div class="site-footer__partner">
+							<h2 class="site-footer__partner-title">{{ site.doks.footer.partner.title }}</h2>
+							<p class="site-footer__partner-desc">{{ site.doks.footer.partner.description }}</p>
+							{% if site.doks.footer.partner.url %}
+								<a href="{{ site.doks.footer.partner.url }}" target="_blank" rel="noopener noreferrer" class="btn btn--dark btn--rounded">{{ site.doks.footer.partner.cta }}</a>
+							{% endif %}
+						</div><!-- /.site-footer__partner -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			{% endif %}
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 site-footer__brand">
 					{% if site.doks.footer.content.logo.text %}
 						<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/" class="site-footer__logo">{{ site.doks.footer.content.logo.text }}</a>
 					{% elsif site.doks.footer.content.logo.image %}
@@ -11,7 +24,6 @@
 						</a><!-- /.site-footer__logo -->
 					{% endif %}
 					{% if site.doks.footer.content.copyright %}
-						<hr>
 						<p class="site-footer__copyright">{{ site.doks.footer.content.copyright }}</p>
 					{% endif %}
 				</div><!-- /.col -->

@@ -5,6 +5,7 @@
 	</head>
 	<body class="{{ site.doks.color_theme }}" data-spy="scroll" data-target=".js-scrollspy">
 		{% include site-header.html %}
+		{% unless page.hide_hero %}
 		<div class="hero-subheader">
 			<div class="container">
 				<div class="row">
@@ -61,7 +62,8 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.hero-subheader -->
-		<div class="section">
+		{% endunless %}
+		<div class="section{% if page.hide_hero %} section--no-hero{% endif %}">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">

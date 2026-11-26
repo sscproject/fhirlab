@@ -12,6 +12,42 @@
 	}
 }
 
+/* ----- Partner with us ----- */
+.site-footer__partner {
+	text-align: center;
+	padding-bottom: 2.5rem;
+	margin-bottom: 2.5rem;
+	border-bottom: 1px solid darken($color-footer-bg, 10%);
+
+	.btn {
+		margin-bottom: 0;
+	}
+}
+
+.site-footer__partner-title {
+	color: $color-dark-blue;
+	margin-top: 0;
+}
+
+.site-footer__partner-desc {
+	max-width: 46rem;
+	margin: 0 auto 1.875rem auto;
+}
+
+/* ----- Logo + copyright on one line ----- */
+.site-footer__brand {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: .75rem 1.25rem;
+	margin-bottom: 1.25rem;
+
+	.site-footer__logo,
+	.site-footer__copyright {
+		margin: 0;
+	}
+}
+
 /* ----- Logo ----- */
 .site-footer__logo {
 	@include link-reset;
