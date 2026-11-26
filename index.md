@@ -16,7 +16,7 @@ Please find below a complete list of tools available in FHIRLab to support learn
 buttons:
     - icon: 
       content: GitHub Docs
-      url: 'https://github.com/upmsilab/FHIRLab'
+      url: 'https://github.com/sscproject/fhirlab'
       external_url: true
     - icon: 
       content: Setup local lab
