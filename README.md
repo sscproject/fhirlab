@@ -16,7 +16,7 @@ Website: **[fhirlab.net](https://fhirlab.net/)**
 | --- | --- |
 | [DPI-H Lab](https://dpih.fhirlab.net/) | Learn and build your country's connected health future together. |
 | [Ontoserver](https://tx.fhirlab.net/) | Learn FHIR terminology, create ValueSets and expand in Point of Service Systems. |
-| [IPS Connectathon Toolkit](https://fhirlab.net/ips-connectathon/) | Get your country team ready for the IPS connectathon. Learn, build and test together. |
+| [IPS Connectathon Toolkit](https://fhirlab.net/ips-connectathon/) | Get your country team ready for the IPS connectathon. Learn, build and connect together. |
 | [Generic FHIR Server](https://cdr.fhirlab.net/) | Fully functional FHIR server to test all things FHIR. |
 | [PH Core FHIR Server](https://cdr.phcore.fhirlab.net/) | Fully functional FHIR server for the PH Core FHIR IG. |
 | [PH eReferral FHIR Server](https://cdr.pheref.fhirlab.net/) | Fully functional FHIR server for the PH eReferral FHIR IG. |

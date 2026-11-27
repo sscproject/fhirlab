@@ -40,7 +40,7 @@ grid_navigation:
       url: 'https://tx.fhirlab.net/'
       external_url: true
     - title: IPS Connectathon Toolkit
-      excerpt: Get your country team ready for the IPS connectathon. Learn, build and test together.
+      excerpt: Get your country team ready for the IPS connectathon. Learn, build and connect together.
       cta: 
       url: 'ips-connectathon'
     - title: Generic FHIR Server
