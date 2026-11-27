@@ -46,7 +46,9 @@ jobs:
         # The Doks theme builds links from doks.baseurl. Override it with the address
         # this site is actually published at (github.io now, fhirlab.net once the
         # custom domain is set), so styles and links always match the live site.
-        run: printf 'doks:\n  baseurl: "%s/"\n' "${{ steps.pages.outputs.base_url }}" > _config_pages.yml
+        run: |
+          printf 'doks:\n  baseurl: "%s/"\n' "${{ steps.pages.outputs.base_url }}" > _config_pages.yml
+          cat _config_pages.yml
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_config_pages.yml
